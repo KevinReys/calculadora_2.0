@@ -1,0 +1,29 @@
+.calculator {
+    width: 200px;
+    margin: 100px auto;
+}
+
+input[type="text"] {
+    width: 96%;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+}
+
+h2 {
+    margin-left: 600px;
+   margin-bottom: -80px;
+}
+
+h4 {
+    margin-left: 10px;
+}
